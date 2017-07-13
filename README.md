@@ -5,7 +5,7 @@ This projects uses concepts from the Deploying to Linux Servers section of Udaci
 
 ### Server Details
 **IP address:** 52.41.90.159 (go to this address in your browser to visit my deployed Item Catalog app)
- **SSH port:** 2200
+SSH port: 2200
 
 ### Configuration Steps
 These initial commands should be run from your Lightsail terminal window.
