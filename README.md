@@ -107,7 +107,8 @@ Once you get to this point you'll have to make a series of changes to prepare yo
 
 #### Configure and Enable the Virtual Host
 Create `FlaskApp.conf` using `sudo vim /etc/apache2/sites-available/FlaskApp.conf`. Add this code to configure the virtual host:
-```<VirtualHost *:80>
+```
+<VirtualHost *:80>
 	ServerName 52.41.90.159
 	ServerAdmin jason[dot]ally[at]gmail[dot]com
 	WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
