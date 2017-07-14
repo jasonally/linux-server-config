@@ -4,8 +4,10 @@
 This projects uses concepts from the Deploying to Linux Servers section of Udacity's [Full Stack Web Developer Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) to configure an Ubuntu server hosted on [Amazon Lightsail](https://amazonlightsail.com/). The server is secured from common attack vectors, contains a properly configured PostgreSQL database, and has my previously completed Item Catalog project running using Apache HTTP Server. This README assumes you have some knowledge of the Linux command line as well as the text editor Vim. If you need a refresher on the command line, check out [Udacity's course on the subject](https://www.udacity.com/course/linux-command-line-basics--ud595). For Vim, check out its [official website](http://www.vim.org/).
 
 ### Server Details
-* **IP address:** 52.41.90.159 (go to this address in your browser to visit my deployed Item Catalog app)
-* **SSH port:** 2200
+* ~**IP address:** 52.41.90.159 (go to this address in your browser to visit my deployed Item Catalog app)~
+* ~**SSH port:** 2200~
+
+_Note: Now that I've completed the nanodegree program, I've disabled my server. Go to http://52.41.90.159 at your own discretion, since I'm not sure what, if anything, you might find there. But for documentation purposes this README will continue to assume 52.41.90.159 is the IP address I'm using._
 
 ### Configuration Steps
 These initial commands should be run from your Lightsail terminal window.
